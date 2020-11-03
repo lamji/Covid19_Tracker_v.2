@@ -166,15 +166,6 @@ export default function Home({data}){
               <p className=" p-0 mb-0">{numberWithCommas(criticals)}</p>
               </Col>
             </Row>
-            <Row className="m-0 pt-2">
-              <Col md={6} xs={6} className="text-left">
-               <p className="mb-0 p-0">Criticals</p> 
-              </Col>
-              <Col md={6} xs={6} className="text-left p-0 pr-2">
-              <p className=" p-0 mb-0">{numberWithCommas(criticals)}</p>
-              </Col>
-            </Row>
-
             </Col>
           </Row>
           
