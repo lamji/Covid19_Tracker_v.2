@@ -182,3 +182,21 @@ footer{
       width: 100% !important;
     }
   }
+  @media only screen and (max-width: 1024px) {
+    .mapContainer {
+      min-height: 50vh;
+      width: 100%;
+      padding: 0px;
+      border-radius: 20px;
+      position: relative;
+    }
+    .card{
+      background: rgba(0, 0, 0, 0.2) !important;
+      position: static;
+      font-size: 13px !important;
+      padding: 20px;
+      border: 1px solid #ff5722;
+      margin: 10px auto;
+      width: 100% !important;
+    }
+  }
